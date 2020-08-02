@@ -7,23 +7,37 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div id='header'>
+    <p>hi</p>
+  </div>
+  <header>
+    <h1>Tic-Tac-Toe</h1>
+  </header>
   <main>
     <div id = 'board'>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
-      <div class = 'square'></div>
+
+      
+      <div class = 'square' id = '1'></div>
+      <div class = 'square' id = '2'></div>
+      <div class = 'square' id = '3'></div>
+      <div class = 'square' id = '4'></div>
+      <div class = 'square' id = '5'></div>
+      <div class = 'square' id = '6'></div>
+      <div class = 'square' id = '7'></div>
+      <div class = 'square' id = '8'></div>
+      <div class = 'square' id = '9'></div>
+      
 
     </div>
 
-
   </main>
-  
+  <form name="name-set" id='name-set'>
+    <label for='P1name'>Player 1 Name:</label>
+    <input id = 'P1name' type='text' required /><br/>
+    <label for='P2name'>Player 2 Name:</label>
+    <input id = 'P2name' type='text' required /><br/>
+    <input type='button' id='submit' value='Submit' />
+  </form>
 
   <script src='script.js'></script> 
 </body>
